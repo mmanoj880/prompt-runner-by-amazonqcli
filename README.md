@@ -1,4 +1,4 @@
-# 🕹️ Prompt Runner Game
+# 🕹️ Prompt Runner Game By AmazonQCLI
 
 **Prompt Runner** is a 2D endless runner game built using **Python**, **Pygame**, and **Amazon Q CLI**. In this game, you collect *good prompts* and avoid *bad prompts* to earn a high score. The project blends classic game mechanics with GenAI tooling, making it a fun and educational coding experiment.
 
