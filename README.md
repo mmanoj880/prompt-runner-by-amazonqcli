@@ -129,11 +129,10 @@ This game is a real-world showcase of what you can build with **AI + Python**.
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots and Videos
 
-> *(Add screenshots or GIFs of gameplay here)*
+> ![image](https://github.com/user-attachments/assets/43d6ad57-b3ef-4d73-95c1-5ed1c3864f1c)
 
----
 
 ## 📄 License
 
