@@ -1,4 +1,4 @@
-# Prompt Runner Game
+# Prompt Runner Game By AmazonQCLI
 
 A 2D endless runner game built with Python and Pygame where the player collects "good prompts" and avoids "bad prompts".
 
@@ -64,4 +64,4 @@ You can customize various aspects of the game by modifying the constants at the 
 
 ## Credits
 
-Created as a Python Pygame project for learning game development basics.
+Created as a Python Pygame project for learning game development basics using AmazonQCLI
