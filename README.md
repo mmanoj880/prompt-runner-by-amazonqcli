@@ -1,151 +1,67 @@
-# 🕹️ Prompt Runner Game By AmazonQCLI
+# Prompt Runner Game
 
-**Prompt Runner** is a 2D endless runner game built using **Amazon Q CLI**. In this game, you collect *good prompts* and avoid *bad prompts* to earn a high score. The project blends classic game mechanics with GenAI tooling, making it a fun and educational coding experiment.
+A 2D endless runner game built with Python and Pygame where the player collects "good prompts" and avoids "bad prompts".
 
----
+## Game Features
 
-## 🤖 Built with Amazon Q CLI
+- Player character that can jump to collect or avoid prompts
+- Green "good prompts" that increase your score
+- Red "bad prompts" that end the game
+- Increasing difficulty as the game progresses
+- Score tracking
+- Visual effects (particles, animations)
+- Sound effects (if sound files are available)
 
-This game was developed using **Amazon Q CLI** as an AI-powered coding assistant. It was instrumental in:
+## How to Play
 
-- Generating reusable game logic (player movement, collisions, etc.)
-- Debugging runtime issues and optimizing performance
-- Refactoring code into modular components
-- Accelerating game development by suggesting features and fixes
+1. Run the game using `python main.py` or `python enhanced_game.py`
+2. Press ENTER to start the game
+3. Use SPACE to jump
+4. Collect green prompts to increase your score
+5. Avoid red prompts
+6. Press ESC to quit
 
-Example Amazon Q CLI prompt:
-```bash
-q ask "How do I implement gravity-based jump in Pygame?"
-````
+## Controls
 
----
+- SPACE: Jump
+- ENTER: Start game / Restart after game over
+- ESC: Quit game
 
-## 🧩 Game Features
+## Requirements
 
-### 🎮 Player Character
+- Python 3.x
+- Pygame library
 
-* Jumping using the **spacebar**
-* Running and jumping animations
-* Collision detection
+## Installation
 
-### ✉️ Prompt System
+1. Make sure you have Python installed
+2. Install Pygame: `pip install pygame`
+3. Run the game: `python main.py` or `python enhanced_game.py`
 
-* **Good prompts** (green): Increase score
-* **Bad prompts** (red): End the game
-* Animated with rotation and pulsing
-* Random spawn locations and fall speeds
+## Game Versions
 
-### ⚙️ Mechanics
+- `main.py`: Basic version of the game with core functionality
+- `enhanced_game.py`: Enhanced version with improved graphics, animations, and effects
 
-* Score tracker
-* Increasing difficulty (faster fall speed over time)
-* Jump physics (gravity, velocity)
-* Start and Game Over screens
+## Adding Sound Effects
 
-### 🎨 Visual Effects
+To add sound effects to the game, place the following WAV files in the `sounds` directory:
 
-* Scrolling animated backgrounds (clouds, grass)
-* Particle effects when collecting prompts
-* Clean and colorful UI
+- `jump.wav`: Played when the player jumps
+- `good_collect.wav`: Played when collecting a good prompt
+- `bad_collect.wav`: Played when hitting a bad prompt
+- `game_over.wav`: Played when the game ends
 
----
+## Customization
 
-## 📁 Project Structure
+You can customize various aspects of the game by modifying the constants at the top of the game files:
 
-* `main.py`: Basic version with essential features
-* `enhanced_game.py`: Advanced version with sounds, effects, and polished gameplay
+- Screen dimensions
+- Game physics (gravity, jump force)
+- Prompt spawn rate and speed
+- Colors
+- Game speed increase rate
 
----
+## Credits
 
-## ▶️ How to Run the Game
-
-### 1. Install Dependencies
-
-```bash
-pip install pygame
-```
-
-### 2. Run the Game
-
-```bash
-python prompt_runner/main.py
-# or
-python prompt_runner/enhanced_game.py
-```
-
----
-
-## 🎮 Controls
-
-| Key   | Action               |
-| ----- | -------------------- |
-| SPACE | Jump                 |
-| ENTER | Start / Restart Game |
-| ESC   | Quit Game            |
-
----
-
-## 🔊 Optional Sound Effects
-
-Add `.wav` files to a `sounds/` folder to enable sound support in the enhanced version:
-
-* `jump.wav`
-* `good_collect.wav`
-* `bad_collect.wav`
-* `game_over.wav`
-
----
-
-## ⚙️ Customization
-
-You can easily tweak these values in the script:
-
-* `SCREEN_WIDTH`, `SCREEN_HEIGHT`
-* `GRAVITY`, `JUMP_FORCE`
-* `SPAWN_RATE`, `FALL_SPEED`
-* `SPEED_INCREASE_RATE`
-* Prompt colors and effects
-
----
-
-## 🚀 Ideas for Expansion
-
-* Use Amazon Q CLI to **evaluate collected prompts live**
-* Add online leaderboard with Flask or Django
-* Add a prompt suggestion system powered by GenAI
-* Multiplayer support with sockets
-
----
-
-## 📢 About Amazon Q CLI
-
-Amazon Q CLI is a GenAI tool that helps developers:
-
-* Ask coding questions from the command line
-* Generate and refactor code
-* Get real-time help on bugs and features
-
-This game is a real-world showcase of what you can build with **AI + Python**.
-
----
-
-## 📸 Screenshots and Videos
-
-> ![image](https://github.com/user-attachments/assets/43d6ad57-b3ef-4d73-95c1-5ed1c3864f1c)
-> 
-
-https://github.com/user-attachments/assets/0a6cab08-5203-4212-b328-ab45734a0916
-
-
-
-
-## 📄 License
-
-MIT License. See `LICENSE` file for details.
-
----
-
-Happy Coding! 🎉
-Built with ❤️ using Amazon Q CLI
-
-```
+Created as a Python Pygame project for learning game development basics.
